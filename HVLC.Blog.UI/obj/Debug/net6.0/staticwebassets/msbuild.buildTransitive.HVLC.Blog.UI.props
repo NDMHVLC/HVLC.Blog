@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\HVLC.Blog.UI.props" />
+</Project>

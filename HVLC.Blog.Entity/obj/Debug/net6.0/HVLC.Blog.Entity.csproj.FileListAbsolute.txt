@@ -1,0 +1,15 @@
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\bin\Debug\net6.0\HVLC.Blog.Entity.deps.json
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\bin\Debug\net6.0\HVLC.Blog.Entity.dll
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\bin\Debug\net6.0\HVLC.Blog.Entity.pdb
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\bin\Debug\net6.0\HVLC.Blog.Core.dll
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\bin\Debug\net6.0\HVLC.Blog.Core.pdb
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\obj\Debug\net6.0\HVLC.Blog.Entity.csproj.AssemblyReference.cache
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\obj\Debug\net6.0\HVLC.Blog.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\obj\Debug\net6.0\HVLC.Blog.Entity.AssemblyInfoInputs.cache
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\obj\Debug\net6.0\HVLC.Blog.Entity.AssemblyInfo.cs
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\obj\Debug\net6.0\HVLC.Blog.Entity.csproj.CoreCompileInputs.cache
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\obj\Debug\net6.0\HVLC.Blog.Entity.csproj.CopyComplete
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\obj\Debug\net6.0\HVLC.Blog.Entity.dll
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\obj\Debug\net6.0\refint\HVLC.Blog.Entity.dll
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\obj\Debug\net6.0\HVLC.Blog.Entity.pdb
+C:\Users\havla\OneDrive\Desktop\Work\HVLC.Blog\HVLC.Blog.Entity\obj\Debug\net6.0\ref\HVLC.Blog.Entity.dll

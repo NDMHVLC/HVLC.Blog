@@ -1,0 +1,356 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\HVLC.Blog.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Core\\HVLC.Blog.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Core\\HVLC.Blog.Core.csproj",
+        "projectName": "HVLC.Blog.Core",
+        "projectPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Core\\HVLC.Blog.Core.csproj",
+        "packagesPath": "C:\\Users\\havla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\havla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Data\\HVLC.Blog.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Data\\HVLC.Blog.Data.csproj",
+        "projectName": "HVLC.Blog.Data",
+        "projectPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Data\\HVLC.Blog.Data.csproj",
+        "packagesPath": "C:\\Users\\havla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\havla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Entity\\HVLC.Blog.Entity.csproj": {
+                "projectPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Entity\\HVLC.Blog.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Entity\\HVLC.Blog.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Entity\\HVLC.Blog.Entity.csproj",
+        "projectName": "HVLC.Blog.Entity",
+        "projectPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Entity\\HVLC.Blog.Entity.csproj",
+        "packagesPath": "C:\\Users\\havla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\havla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Core\\HVLC.Blog.Core.csproj": {
+                "projectPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Core\\HVLC.Blog.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Service\\HVLC.Blog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Service\\HVLC.Blog.Service.csproj",
+        "projectName": "HVLC.Blog.Service",
+        "projectPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Service\\HVLC.Blog.Service.csproj",
+        "packagesPath": "C:\\Users\\havla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\havla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Data\\HVLC.Blog.Data.csproj": {
+                "projectPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Data\\HVLC.Blog.Data.csproj"
+              },
+              "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Entity\\HVLC.Blog.Entity.csproj": {
+                "projectPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Entity\\HVLC.Blog.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\HVLC.Blog.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\HVLC.Blog.UI.csproj",
+        "projectName": "HVLC.Blog.UI",
+        "projectPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\HVLC.Blog.UI.csproj",
+        "packagesPath": "C:\\Users\\havla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\havla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Data\\HVLC.Blog.Data.csproj": {
+                "projectPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Data\\HVLC.Blog.Data.csproj"
+              },
+              "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Service\\HVLC.Blog.Service.csproj": {
+                "projectPath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Service\\HVLC.Blog.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

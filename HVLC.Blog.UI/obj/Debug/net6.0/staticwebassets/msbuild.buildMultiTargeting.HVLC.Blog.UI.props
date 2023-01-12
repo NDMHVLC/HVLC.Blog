@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HVLC.Blog.UI.props" />
+</Project>
