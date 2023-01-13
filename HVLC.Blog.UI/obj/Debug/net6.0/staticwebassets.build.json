@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tLW1UnFj9u8B4/8QWmDGzHxDZoC6xYaMXKQfHbEUNyc=",
+  "Hash": "mx/SvwLanBk5MTtZd8GQPfWne05utQe3YvDVNub8dYA=",
   "Source": "HVLC.Blog.UI",
   "BasePath": "_content/HVLC.Blog.UI",
   "Mode": "Default",
@@ -2157,6 +2157,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\ui-typography.html"
+    },
+    {
+      "Identity": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\wwwroot\\js\\article.js",
+      "SourceId": "HVLC.Blog.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\wwwroot\\",
+      "BasePath": "_content/HVLC.Blog.UI",
+      "RelativePath": "js/article.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\article.js"
     },
     {
       "Identity": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\wwwroot\\js\\bootstrap.js",

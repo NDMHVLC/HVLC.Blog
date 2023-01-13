@@ -501,6 +501,10 @@
       "PackagePath": "staticwebassets\\html\\ui-typography.html"
     },
     {
+      "Id": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\wwwroot\\js\\article.js",
+      "PackagePath": "staticwebassets\\js\\article.js"
+    },
+    {
       "Id": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
