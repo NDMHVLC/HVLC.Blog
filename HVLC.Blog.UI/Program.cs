@@ -3,19 +3,26 @@ using HVLC.Blog.Data.Extensions;
 using HVLC.Blog.Entity.Entities;
 using HVLC.Blog.Service.Extensions;
 using Microsoft.AspNetCore.Identity;
+using NToastNotify;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+builder.Services.AddControllersWithViews()
+    .AddNToastNotifyToastr(new ToastrOptions()
+    {
+        PositionClass = ToastPositions.TopRight,
+        TimeOut = 3000
+    })
+    .AddRazorRuntimeCompilation();
 builder.Services.LoadDataLayerExtension(builder.Configuration);
 builder.Services.LoadServiceLayerExtension();
 builder.Services.AddSession();
 builder.Services.AddIdentity<AppUser, AppRole>(options =>
 {
     options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequireLowercase= false;
-    options.Password.RequireUppercase= false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
 })
     .AddRoleManager<RoleManager<AppRole>>()
     .AddEntityFrameworkStores<BlogAppDbContext>()
@@ -35,7 +42,7 @@ builder.Services.ConfigureApplicationCookie(config =>
         SecurePolicy = CookieSecurePolicy.SameAsRequest
     };
     config.SlidingExpiration = true;
-    config.ExpireTimeSpan=TimeSpan.FromDays(7);
+    config.ExpireTimeSpan = TimeSpan.FromDays(7);
     config.AccessDeniedPath = new PathString("/Admin/Auth/AccessDenied");
 });
 
@@ -50,6 +57,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseNToastNotify();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -64,9 +72,9 @@ app.UseAuthorization();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapAreaControllerRoute(
-        name:"Admin",
-        areaName:"Admin",
-        pattern:"Admin/{controller=Home}/{action=Index}/{id?}"
+        name: "Admin",
+        areaName: "Admin",
+        pattern: "Admin/{controller=Home}/{action=Index}/{id?}"
         );
     endpoints.MapDefaultControllerRoute();
 });

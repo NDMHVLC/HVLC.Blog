@@ -10,6 +10,15 @@ namespace HVLC.Blog.Entity.Entities
 {
     public class Category : EntityBase , IEntity
     {
+        public Category()
+        {
+        }
+
+        public Category(string name)
+        {
+            Name = name;
+        }
+
         public string Name { get; set; }
 
 

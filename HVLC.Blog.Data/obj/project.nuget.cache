@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p2YUMoV+AZA8uK2O2Uodfvx8+755GRXfvhGAENCVYSdRyYHh5FIROUJqNyI/h5FXUcjBj2l6QKVtgTHiaR/JZg==",
+  "dgSpecHash": "z7bG/czngk/mhCCjLHN6SoxUkm4/f8d2Va983KpAn4oVzcexjd3nssJ2PMuoUkdpdAbD4+AOrsp7BP42dXKwpg==",
   "success": true,
   "projectFilePath": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.Data\\HVLC.Blog.Data.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\havla\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\havla\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.13\\microsoft.aspnetcore.cryptography.internal.6.0.13.nupkg.sha512",
     "C:\\Users\\havla\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.13\\microsoft.aspnetcore.cryptography.keyderivation.6.0.13.nupkg.sha512",
+    "C:\\Users\\havla\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\havla\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.13\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.13.nupkg.sha512",
     "C:\\Users\\havla\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\havla\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

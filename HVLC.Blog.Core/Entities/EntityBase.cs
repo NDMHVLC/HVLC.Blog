@@ -9,7 +9,7 @@ namespace HVLC.Blog.Core.Entities
     public abstract class EntityBase : IEntity
     {
         public virtual Guid Id { get; set; } = Guid.NewGuid();
-        public virtual string CreatedBy { get; set; }
+        public virtual string CreatedBy { get; set; } = "Undefined";
         public virtual DateTime CreatedDate { get; set; } = DateTime.Now;
         public virtual string? ModifiedBy { get; set; }
         public virtual DateTime? ModifiedDate { get; set; }

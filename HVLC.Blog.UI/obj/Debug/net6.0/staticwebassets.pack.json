@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\havla\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\noty.js",
+      "PackagePath": "staticwebassets\\noty.js"
+    },
+    {
+      "Id": "C:\\Users\\havla\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\toastr.js",
+      "PackagePath": "staticwebassets\\toastr.js"
+    },
+    {
       "Id": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HVLC.Blog.UI.bundle.scp.css",
       "PackagePath": "staticwebassets\\HVLC.Blog.UI.bundle.scp.css"
     },
@@ -499,6 +507,10 @@
     {
       "Id": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\wwwroot\\html\\ui-typography.html",
       "PackagePath": "staticwebassets\\html\\ui-typography.html"
+    },
+    {
+      "Id": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\wwwroot\\images\\article-images\\resimyukleme_190.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\resimyukleme_190.jpg"
     },
     {
       "Id": "C:\\Users\\havla\\OneDrive\\Desktop\\Work\\HVLC.Blog\\HVLC.Blog.UI\\wwwroot\\js\\article.js",
